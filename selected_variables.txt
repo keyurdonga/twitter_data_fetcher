@@ -1,0 +1,25 @@
+Twitter variables to be extracted from the JSON for DB
+
+id:- tweet ID
+text:- tweet value
+entities:- hashtags:- [] array of hastags used in tweets
+user:- id:- ex. 12562
+user:- name:- ex. keyur
+user:- location:- ex. 12562
+user:- followers_count:- ex. 12562
+user:- friends_count:- ex. 12562
+user:- listed_count:- ex. 12562
+user:- created_at:- ex. 12562
+user:- favourites_count:- ex. 12562
+user:- time_zone:- ex. 12562
+user:- statuses_count:- ex. 12562
+user:- lang:- "es"
+retweet_count:- int
+favorite_count:- int
+lang:- "es"
+
+3 tables:-
+-> tweet info
+-> tweet hashtags
+-> user info
+
