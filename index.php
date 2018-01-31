@@ -1,9 +1,11 @@
 <?php
 
-$consumer_key = 'LH3oQv28gacLQfFIoMjj50QIB';
-$consumer_secret = '2Z13ObQn6KszRBq8EQXsvwcDDWqTVKb69KMo0SeqSjmkRV7KWo';
-$access_token = '2826939806-V7uMmKFADJgmBMdtBhjUmeXOIi07lt0oRBpRFf6';
-$access_token_secret = 'MoTxGQXnRKCDm2eUPbkPtBbHoN9JwbeF0nNjBrBRkUYH3';
+$consumer_key = 'LH3oQv28gacLQfFIoMjj50';
+$consumer_secret = '2Z13ObQn6KszRBq8EQXsvwcDDWqTVKb69KMo0SeqSjmk';
+$access_token = '2826939806-V7uMmKFADJgmBMdtBhjUmeXOIi07';
+$access_token_secret = 'MoTxGQXnRKCDm2eUPbkPtBbHoN9JwbeF0nNjBr3';
+
+//Replace the acces tokens with your own values after creating a twitter app on developers.twitter.com
 
 require "twitteroauth/autoload.php";
 use Abraham\TwitterOAuth\TwitterOAuth;
